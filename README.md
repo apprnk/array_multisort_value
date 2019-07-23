@@ -1,5 +1,5 @@
 # array_multisort_value
-
+<pre>
 $array = [
   [
     'goal'  => 'sortableValue',
@@ -11,3 +11,4 @@ $array = [
   ]
 ];
 $result = array_multisort_value($array, 'goal', SORT_DESC);
+</pre>
